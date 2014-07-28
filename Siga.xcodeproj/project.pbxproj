@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		457123611985C08000C8B500 /* graph-manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4571235F1985C08000C8B500 /* graph-manager.cpp */; };
 		45A0FCBB19809CCB0021A196 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FCBA19809CCB0021A196 /* main.cpp */; };
 		45A0FCBD19809CCB0021A196 /* Siga.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45A0FCBC19809CCB0021A196 /* Siga.1 */; };
+		45A0FCC519809CE10021A196 /* sparse-matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FCC319809CE10021A196 /* sparse-matrix.cpp */; };
+		45A0FCC819809FA30021A196 /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FCC619809FA30021A196 /* node.cpp */; };
+		45A0FCCB19809FC50021A196 /* element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FCC919809FC50021A196 /* element.cpp */; };
+		45A0FCD119809FFB0021A196 /* link.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FCCF19809FFB0021A196 /* link.cpp */; };
+		45A0FCD41980A65E0021A196 /* draw-manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FCD21980A65E0021A196 /* draw-manager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +31,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4571235F1985C08000C8B500 /* graph-manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "graph-manager.cpp"; sourceTree = "<group>"; };
+		457123601985C08000C8B500 /* graph-manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "graph-manager.h"; sourceTree = "<group>"; };
 		45A0FCB719809CCB0021A196 /* Siga */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Siga; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A0FCBA19809CCB0021A196 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		45A0FCBC19809CCB0021A196 /* Siga.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Siga.1; sourceTree = "<group>"; };
+		45A0FCC319809CE10021A196 /* sparse-matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "sparse-matrix.cpp"; sourceTree = "<group>"; };
+		45A0FCC419809CE10021A196 /* sparse-matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sparse-matrix.h"; sourceTree = "<group>"; };
+		45A0FCC619809FA30021A196 /* node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = node.cpp; sourceTree = "<group>"; };
+		45A0FCC719809FA30021A196 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		45A0FCC919809FC50021A196 /* element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = element.cpp; sourceTree = "<group>"; };
+		45A0FCCA19809FC50021A196 /* element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = element.h; sourceTree = "<group>"; };
+		45A0FCCF19809FFB0021A196 /* link.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = link.cpp; sourceTree = "<group>"; };
+		45A0FCD019809FFB0021A196 /* link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = link.h; sourceTree = "<group>"; };
+		45A0FCD21980A65E0021A196 /* draw-manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "draw-manager.cpp"; sourceTree = "<group>"; };
+		45A0FCD31980A65E0021A196 /* draw-manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "draw-manager.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +79,19 @@
 			isa = PBXGroup;
 			children = (
 				45A0FCBA19809CCB0021A196 /* main.cpp */,
+				45A0FCC619809FA30021A196 /* node.cpp */,
+				45A0FCC719809FA30021A196 /* node.h */,
+				45A0FCC919809FC50021A196 /* element.cpp */,
+				45A0FCCA19809FC50021A196 /* element.h */,
 				45A0FCBC19809CCB0021A196 /* Siga.1 */,
+				45A0FCC319809CE10021A196 /* sparse-matrix.cpp */,
+				45A0FCC419809CE10021A196 /* sparse-matrix.h */,
+				45A0FCCF19809FFB0021A196 /* link.cpp */,
+				45A0FCD019809FFB0021A196 /* link.h */,
+				45A0FCD21980A65E0021A196 /* draw-manager.cpp */,
+				45A0FCD31980A65E0021A196 /* draw-manager.h */,
+				4571235F1985C08000C8B500 /* graph-manager.cpp */,
+				457123601985C08000C8B500 /* graph-manager.h */,
 			);
 			path = Siga;
 			sourceTree = "<group>";
@@ -117,7 +147,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457123611985C08000C8B500 /* graph-manager.cpp in Sources */,
+				45A0FCC519809CE10021A196 /* sparse-matrix.cpp in Sources */,
+				45A0FCD41980A65E0021A196 /* draw-manager.cpp in Sources */,
 				45A0FCBB19809CCB0021A196 /* main.cpp in Sources */,
+				45A0FCCB19809FC50021A196 /* element.cpp in Sources */,
+				45A0FCD119809FFB0021A196 /* link.cpp in Sources */,
+				45A0FCC819809FA30021A196 /* node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +263,7 @@
 				45A0FCC219809CCB0021A196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
